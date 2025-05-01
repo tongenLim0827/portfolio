@@ -9,13 +9,13 @@ function Contact() {
 
                 {/* Phone */}
                 <div className="contact-item">
-                    <img src="images/phone.png" alt="Phone" />
+                    <img src="/images/phone.png" alt="Phone" />
                     <span className="contact-label">+60 123563238</span>
                 </div>
 
                 {/* Email */}
                 <div className="contact-item">
-                    <img src="images/email.png" alt="Email" />
+                    <img src="/images/email.png" alt="Email" />
                     <span className="contact-label">tongen2014@gmail.com</span>
                 </div>
 
@@ -26,7 +26,7 @@ function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img src="images/linkedin.png" alt="LinkedIn" />
+                    <img src="/images/linkedin.png" alt="LinkedIn" />
                     <span className='contact-label'>LinkedIn</span>
                 </a>
             </section>

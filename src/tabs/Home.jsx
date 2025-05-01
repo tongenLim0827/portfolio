@@ -31,7 +31,7 @@ function Home({ setActiveTab }) {
         </div>
       </section>
     <div className='profile-img'>
-        <img src='images/profile.jpg' alt='profile'/>
+        <img src='/images/profile.jpg' alt='profile'/>
     </div>
     </div>
     )

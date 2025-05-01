@@ -37,6 +37,20 @@
     
 }
 
+.project-card-inner-2 {
+    display: block;
+    gap: 20px;
+    text-align: start;
+    justify-items: center;
+}
+
+.project-card-inner-2 ul {
+    max-width: 500px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    color: #555;
+}
+
 .project-card-inner ul {
     max-width: 600px;
     line-height: 1.6;
