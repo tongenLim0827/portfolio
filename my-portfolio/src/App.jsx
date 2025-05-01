@@ -64,15 +64,14 @@ function App() {
         </div>
 
         {/* TAB CONTENT */}
-        <div className="tab-content">
-          <Routes>
-            <Route path="/home" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Project />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/" element={<Home />} />
-          </Routes>
-        </div>
+        <Routes>
+          <Route path="/home" element={<Home setActiveTab={setActiveTab} />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Home setActiveTab={setActiveTab}/>} />
+        </Routes>
+
       </div>
     </Router>
   );

@@ -1,5 +1,8 @@
+import { useNavigate } from 'react-router-dom';
 import '../App.css';
-function Home() {
+function Home({ setActiveTab }) {
+    const navigate = useNavigate();
+
     return (
       <div className="app-content">
       <section id="home" className="intro">
@@ -9,8 +12,20 @@ function Home() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore et officiis suscipit ut assumenda libero tenetur expedita eaque, quaerat quasi.
         </p>
         <div className="buttons">
-          <button className="btn-primary">Contact Me</button>
-          <button className="btn-outline">See Projects</button>
+            <button
+                className="btn-primary"
+                onClick={() => {
+                    setActiveTab("contact");
+                    navigate('/contact');
+                }}
+            >Contact Me</button>
+            <button
+                className="btn-outline"
+                onClick={() => {
+                    setActiveTab("projects");
+                    navigate('/projects');
+                }}
+            >See Projects</button>
         </div>
       </section>
 
