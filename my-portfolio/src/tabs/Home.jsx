@@ -7,10 +7,12 @@ function Home({ setActiveTab }) {
       <div className="app-content">
       <section id="home" className="intro">
         <h1>Hi! I'm <span>Tong En</span></h1>
-        <h2>A Computer Science graduate from Monash University Malaysia</h2>
+        <h2>A Computer Science (Data Science specialisation) graduate from Monash University Malaysia</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore et officiis suscipit ut assumenda libero tenetur expedita eaque, quaerat quasi.
+            Fueled by a passion for coding and a drive to create impactful digital solutions.
+            Looking for exciting opportunities in software development or data science where I can grow and contribute.
         </p>
+        
         <div className="buttons">
             <button
                 className="btn-primary"
@@ -28,7 +30,9 @@ function Home({ setActiveTab }) {
             >See Projects</button>
         </div>
       </section>
-
+    <div className='profile-img'>
+        <img src='images/profile.jpg' alt='profile'/>
+    </div>
     </div>
     )
 }

@@ -3,9 +3,9 @@ import './contact.css';
 function Contact() {
     return (
         <div className="content">
-            <h1>Let's keep in touch</h1>
+            <h1>Let's Connect</h1>
             <p>I'm always open to new opportunities! Please feel free to reach out through any of the channels below.</p>
-            <div className="image-container">
+            <section className="image-container">
 
                 {/* Phone */}
                 <div className="contact-item">
@@ -29,8 +29,7 @@ function Contact() {
                     <img src="images/linkedin.png" alt="LinkedIn" />
                     <span className='contact-label'>LinkedIn</span>
                 </a>
-                
-            </div>
+            </section>
         </div>
     );
 }
