@@ -10,31 +10,42 @@
 }
 
 .project-card {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
     border-radius: 30px;
     padding: 20px;
     margin: 10px 20px 20px;
     justify-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-card:hover {
+    background-color: rgba(235, 204, 255, 0.825);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.904);
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 .project-title {
     display: flex;
     gap: 10px;
     align-items: center;
+    letter-spacing: 1.5px;
 }
 
 .project-title h2 {
     color: #800080;
     font-size: 24px;
     font-weight: 600;
+    max-width: 800px;
 }
 
 .project-card-inner {
     display: flex;
     gap: 20px;
     text-align: start;
-    
+    align-items: center;
 }
 
 .project-card-inner-2 {
@@ -49,6 +60,7 @@
     line-height: 1.6;
     margin-bottom: 32px;
     color: #555;
+    letter-spacing: 1.5px;
 }
 
 .project-card-inner ul {
@@ -56,6 +68,7 @@
     line-height: 1.6;
     margin-bottom: 32px;
     color: #555;
+    letter-spacing: 1.5px;
 }
 
 .repo-item {
@@ -64,6 +77,10 @@
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
     margin-bottom: 6px;
+}
+
+.repo-item:hover {
+    transform: scale(1.2);
 }
 
 .repo-label {
