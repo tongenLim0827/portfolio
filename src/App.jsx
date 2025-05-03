@@ -6,10 +6,11 @@ import Home from './tabs/Home';
 import About from './tabs/about/about';
 import Project from './tabs/project/project';
 import Contact from './tabs/contact/contact';
+import Experience from './tabs/experience/experience';
 
 function App() {
   const [activeTab, setActiveTab] = useState('');
-
+  
   return (
     <Router>
       <div className="animated-background">
@@ -46,6 +47,14 @@ function App() {
             </Link>
 
             <Link
+              to="/experience"
+              className={`nav-link ${activeTab === "experience" ? "active" : ""}`}
+              onClick={() => setActiveTab("experience")}
+            >
+              Experience
+            </Link>
+
+            <Link
               to="/projects"
               className={`nav-link ${activeTab === "projects" ? "active" : ""}`}
               onClick={() => setActiveTab("projects")}
@@ -67,11 +76,15 @@ function App() {
         <Routes>
           <Route path="/home" element={<Home setActiveTab={setActiveTab} />} />
           <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Home setActiveTab={setActiveTab}/>} />
         </Routes>
 
+      </div>
+      <div className="footer">
+        <p>&copy; {new Date().getFullYear()} Lim Tong En. All rights reserved.</p>
       </div>
     </Router>
   );

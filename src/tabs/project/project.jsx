@@ -6,13 +6,15 @@ import tourismDashboard from '../../assets/tourism-dashboard.png';
 import unemploymentDashboard from '../../assets/unemployment-dashboard.png';
 import mstayDashBoard from '../../assets/mstay-analysis.png';
 import bookstoreApp from '../../assets/bookstore-app.png';
+import rogueLikeGame from '../../assets/rogue-like-game.png';
+import vehicleTracker from '../../assets/vehicle-rental-tracker.png';
 import githubIcon from '../../assets/github.png';
 import websiteIcon from '../../assets/website.png';
 import playbuttonIcon from '../../assets/play-button.png';
 
 function Project () {
     return (
-        <div className='content'>
+        <div className='project-content'>
             <h1> Projects </h1>
             <div className="project-card">
 
@@ -28,8 +30,7 @@ function Project () {
                     </a>
                     <a
                         className="repo-item"
-                        // CHANGE TO DEMO VIDEO LINK
-                        href="https://github.com/tongenLim0827/fyp-student-engagement-monitoring-system"
+                        href="https://drive.google.com/file/d/1RYvPSxnMrmBYqeA0HGKAaeuIPaN-DsIJ/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -47,8 +48,9 @@ function Project () {
                         <li>Nominated as one of the top 10 teams out of 38 teams to compete for the Best Final Year Project Award 2024.</li>
                         <li>The model is trained with CASMEII and SAMM dataset, achieving a training accuracy of 97.85%.</li>
                         <li>Detected emotions: Focus, Boredom, Distraction, Frustration, Confusion</li>
-                        <li>Technologies/Techniques used: 
+                        <li>Technologies/Techniques/Tools used: 
                             <ul>
+                                <li>GoPro camera to capture live video feeds</li>
                                 <li><b>OpenCV</b> for image processing</li>
                                 <li><b>CNN (Convolutional Neural Network)</b> based deep learning model</li>
                                 <li><b>Facial Action Coding System (FACS)</b> based emotion mapping technique</li>
@@ -73,12 +75,11 @@ function Project () {
                         </a>
                         <a
                             className="repo-item"
-                            // CHANGE TO DEMO VIDEO LINK
-                            href="https://github.com/tongenLim0827/fyp-student-engagement-monitoring-system"
+                            href="https://tongenlim0827.github.io/fit2095-a3/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <img className="repo-item" src={playbuttonIcon} alt="Demo Video" />
+                            <img className="repo-item" src={websiteIcon} alt="Demo Video" />
                         </a>
                         <h2>Event Management Application</h2>
                     </div>
@@ -116,14 +117,13 @@ function Project () {
                         </a>
                         <a
                             className="repo-item"
-                            // CHANGE TO DEMO VIDEO LINK
-                            href="https://github.com/tongenLim0827/fyp-student-engagement-monitoring-system"
+                            href="https://drive.google.com/file/d/1svyU7JIQ5KIhx_ZYNUNpwQ6XB3d70PBf/view?usp=drive_link"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <img className="repo-item" src={playbuttonIcon} alt="Demo Video" />
                         </a>
-                        <h2>WeShare - Travel Expenses Splitting App</h2>
+                        <h2>Travel Expenses Splitting App</h2>
                     </div>
                     <div className="project-card-inner-2">
                         <img
@@ -133,7 +133,7 @@ function Project () {
                         />
                         <ul>
                             <li>A travel expenses splitting app to track the total expenses spent in a trip,
-                                categorising each expenses into categories and perform splitting among travelers</li>
+                                categorising each expenses into various categories and perform splitting among travelers</li>
                             <li>Technologies/Techniques used: 
                                 <ul>
                                     <li><b>Laravel Framework</b></li>
@@ -152,17 +152,7 @@ function Project () {
                     <div className="project-title">
                         <a
                             className="repo-item"
-                            // CHANGE THE LINK
-                            href="https://github.com/tongenLim0827/fit2095-a3"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img className="repo-item" src={githubIcon} alt="GitHub" />
-                        </a>
-                        <a
-                            className="repo-item"
-                            // CHANGE TO DEMO VIDEO LINK
-                            href="https://github.com/tongenLim0827/fyp-student-engagement-monitoring-system"
+                            href="https://drive.google.com/file/d/1gHTHb0Dx1OfZQR5lbQl47ysf9eECUXzz/view?usp=drive_link"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -170,11 +160,11 @@ function Project () {
                         </a>
                         <h2>Bookstore Application</h2>
                     </div>
-                    <div className="project-card-inner">
+                    <div className="project-card-inner-2">
                         <img
                             src={bookstoreApp}
                             alt="bookstore application"
-                            style={{ width: '150px', height: '300px' }}
+                            style={{ width: '150px', height: '200px' }}
                         />
                         <ul>
                             <li>A mobile book store application to manage bookstore inventory</li>
@@ -191,40 +181,30 @@ function Project () {
                 {/* TRAVEL EXPENSES APPLICATION */}
                 <div className='project-card'>
                     <div className="project-title">
-                        {/* <a
+                        <a
                             className="repo-item"
-                            href="https://github.com/tongenLim0827/travel-app"
+                            href="https://github.com/tongenLim0827/fit2099-asgn"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <img className="repo-item" src={githubIcon} alt="GitHub" />
                         </a>
-                        <a
-                            className="repo-item"
-                            // CHANGE TO DEMO VIDEO LINK
-                            href="https://github.com/tongenLim0827/fyp-student-engagement-monitoring-system"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img className="repo-item" src={playbuttonIcon} alt="Demo Video" />
-                        </a> */}
-                        <h2>PROJECT NAME</h2>
+                        <h2>Console-based Rogue-like Game</h2>
                     </div>
                     <div className="project-card-inner-2">
-                        {/* <img
-                            src={weshare}
-                            alt="EMA"
-                            style={{ width: '300px', height: '200px' }}
-                        /> */}
+                        <img
+                            src={rogueLikeGame}
+                            alt="Rogue Like Game"
+                            style={{ width: '150px', height: '200px' }}
+                        />
                         <ul>
-                            <li>PROJECT DESCRIPTION
+                            <li>Developed a console-based rogue-like game inspired by Elden Ring using <b>Java</b>, adhering to
+                            Object-Oriented Programming and SOLID principles
                             </li>
-                            
                         </ul>
                     </div>
                 </div>
             </div>
-
 
             <h1> Data Science Projects </h1>
             <div className='duo-project-container'>
@@ -292,15 +272,6 @@ function Project () {
                 {/* PowerBI MStay */}
                 <div className='project-card'>
                     <div className="project-title">
-                        <a
-                            className="repo-item"
-                            // CHANGE THE LINK HERE
-                            href="https://github.com/tlim0031/data_viz2"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img className="repo-item" src={playbuttonIcon} alt="Demo" />
-                        </a>
                         <h2>MStay Database Management and Analysis</h2>
                     </div>
                     <div className="project-card-inner-2">
@@ -318,27 +289,27 @@ function Project () {
                 </div>
 
                 <div className='project-card'>
-                    {/* VBA */}
+                    {/*  Vehicle Return Tracking System */}
                     <div className="project-title">
                         <a
                             className="repo-item"
-                            // CHANGE THE LINK
-                            href="https://public.tableau.com/app/profile/tong.en.lim/viz/UnemploymentPatternsinMalaysia/Dashboard1"
+                            href="https://drive.google.com/file/d/109ILCziumYIV54GLAmQzWNyvW0s1rBWS/view?usp=drive_link"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <img className="repo-item" src={playbuttonIcon} alt="Demo" />
                         </a>
-                        <h2>PROJECT NAME</h2>
+                        <h2> Vehicle Return Tracking System</h2>
                     </div>
                     <div className="project-card-inner-2">
-                        {/* <img
-                            src={unemploymentDashboard}
-                            alt="unemploymeny dashboard"
+                        <img
+                            src={vehicleTracker}
+                            alt="Vehicle Rental Tracker"
                             style={{ width: '400px', height: '250px' }}
-                        /> */}
+                        />
                         <ul>
-                            <li> PROJECT DESCRIPTION</li>
+                            <li> A tracking system to track the return status of vehicle rental</li>
+                            <li> Developed system with <b>Excel VBA</b> and visualized data using <b>PivotTable and PivotChart</b></li>
                         </ul>
                     </div>
                 </div>

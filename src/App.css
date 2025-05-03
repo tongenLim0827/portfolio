@@ -1,5 +1,5 @@
 .animated-background {
-  min-height: 100vh;
+  min-height: 90vh;
   background-image: url('../public/images/background.jpg');
   background-size: cover;
   background-position: center;
@@ -147,4 +147,12 @@
   border-bottom: 2px solid rgba(255, 255, 255, 0.3);
   justify-content: space-between;
   letter-spacing: 0.5px;
+}
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.8);
+  justify-items: center;
+  bottom: 0;
+  position: relative;
+  padding: 10px;
 }

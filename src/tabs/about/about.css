@@ -1,0 +1,111 @@
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.about-content h1 {
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #800080;
+}
+
+.btn-primary {
+    background-color: #800080;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.description-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    padding: 30px;
+    justify-items: center;
+    transition: transform 0.2s ease-in-out;
+    max-width: 1000px;
+    margin: 10px;
+}
+
+.description-card p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    color: #555;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+.skills-container {
+    gap: 20px;
+    display: flex;
+}
+
+.skills-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+    justify-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.skills-card h3 {
+    text-align: center;
+    color: #555;
+}
+
+.skills-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    color: #555;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+.skills-card:hover {
+    background-color: rgba(235, 204, 255, 0.825);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.904);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.leadership-card {
+    border-radius: 30px;
+    padding: 20px;
+    justify-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.leadership-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    color: #555;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+.custom-timeline-element-title {
+    color: #800080;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.custom-timeline-element-subtitle {
+    text-align: center;
+    color: #555;
+}
