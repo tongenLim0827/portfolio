@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ef4a4212.css",
-    "main.js": "/portfolio/static/js/main.d98e89a3.js",
+    "main.js": "/portfolio/static/js/main.c2449ca0.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/background.jpg": "/portfolio/static/media/background.633192d8d8c1bbe9ff96.jpg",
+    "static/media/expenses-tracker.png": "/portfolio/static/media/expenses-tracker.08244a53f6890ee8b55f.png",
     "static/media/mstay-analysis.png": "/portfolio/static/media/mstay-analysis.47724bc51dd210f03830.png",
     "static/media/unemployment-dashboard.png": "/portfolio/static/media/unemployment-dashboard.438e46d3f97299f4ea67.png",
     "static/media/vehicle-rental-tracker.png": "/portfolio/static/media/vehicle-rental-tracker.ed607067798492a8e513.png",
@@ -21,11 +22,11 @@
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.d889477d1c6f81ac84e4.png",
     "index.html": "/portfolio/index.html",
     "main.ef4a4212.css.map": "/portfolio/static/css/main.ef4a4212.css.map",
-    "main.d98e89a3.js.map": "/portfolio/static/js/main.d98e89a3.js.map",
+    "main.c2449ca0.js.map": "/portfolio/static/js/main.c2449ca0.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef4a4212.css",
-    "static/js/main.d98e89a3.js"
+    "static/js/main.c2449ca0.js"
   ]
 }
