@@ -8,6 +8,7 @@ import mstayDashBoard from '../../assets/mstay-analysis.png';
 import bookstoreApp from '../../assets/bookstore-app.png';
 import rogueLikeGame from '../../assets/rogue-like-game.png';
 import vehicleTracker from '../../assets/vehicle-rental-tracker.png';
+import expensesTracker from '../../assets/expenses-tracker.png';
 import githubIcon from '../../assets/github.png';
 import websiteIcon from '../../assets/website.png';
 import playbuttonIcon from '../../assets/play-button.png';
@@ -62,6 +63,33 @@ function Project () {
             </div>
 
             <div className='duo-project-container'>
+                {/* React Expenses APPLICATION */}
+                <div className='project-card'>
+                    <div className="project-title">
+                        <a
+                            className="repo-item"
+                            href="https://tongenlim0827.github.io/react-expenses-tracker/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img className="repo-item" src={websiteIcon} alt="Demo Video" />
+                        </a>
+                        <h2>Expenses tracker</h2>
+                    </div>
+                    <div className="project-card-inner-2">
+                        <img
+                            src={expensesTracker}
+                            alt="expense tracker application"
+                            style={{ width: '400px', height: '250px' }}
+                        />
+                        <ul>
+                            <li>A simple expense tracker application created with <b>React</b></li>
+                            <li>User can add, view, update and delete the expenses</li>
+                            <li>The list of expenses can also be sorted based on the filters applied</li>
+                        </ul>
+                    </div>
+                </div>
+
                 {/* EVENT MANAGEMENT APPLICATION */}
                 <div className='project-card'>
                     <div className="project-title">
@@ -103,7 +131,9 @@ function Project () {
                         </ul>
                     </div>
                 </div>
+            </div>
 
+            <div className='duo-project-container'>
                 {/* TRAVEL EXPENSES APPLICATION */}
                 <div className='project-card'>
                     <div className="project-title">
@@ -144,9 +174,7 @@ function Project () {
                         </ul>
                     </div>
                 </div>
-            </div>
 
-            <div className='duo-project-container'>
                 {/* BOOKSTORE APPLICATION */}
                 <div className='project-card'>
                     <div className="project-title">
@@ -177,7 +205,9 @@ function Project () {
                         </ul>
                     </div>
                 </div>
+            </div>
 
+            <div className='duo-project-container'>
                 {/* TRAVEL EXPENSES APPLICATION */}
                 <div className='project-card'>
                     <div className="project-title">

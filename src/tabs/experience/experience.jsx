@@ -77,7 +77,7 @@ function Experience () {
                     
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="Nov 2023 - Feb 2024"
+                        date="Feb 2021 - Jun 2022"
                         iconStyle={{ background: '#800080', color: 'black'}}
                     >
                         <h3 className="custom-timeline-element-title">Cambridge GCE A-level</h3>
